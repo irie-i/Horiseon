@@ -8,7 +8,7 @@ This project aims to confirm the understanding of HTML semantics/accessibility. 
 
 Enclosed is a screenshot of the current appearence of application after changes to code were made.
 
-![Screenshot of application](./assets/images/Screenshot-1.png)
+![Screenshot of application](./assets/images/screenshot-2.png)
 
 ## Link
 
