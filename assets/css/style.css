@@ -31,19 +31,17 @@ nav {
     display: block;
     overflow: hidden;
     float: right;
-    
 }
 
 .header ul {
     list-style-type: none;
-    float: right;  
-    padding: 20px 0px;  
+    float: right;
+    padding: 20px 0px;
 }
 
 .header ul li {
     display: inline;
     margin-left: 25px;
-
 }
 
 a {
