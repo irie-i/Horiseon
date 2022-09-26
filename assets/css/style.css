@@ -11,7 +11,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    margin: 10px 0px 0px 0px;
 }
 
 .header h1 .seo {
@@ -26,18 +25,24 @@ body {
     width: 100%;
     background-color: #2a607c;
     color: #ffffff;
+}
 
+nav {
+    display: block;
+    overflow: hidden;
+    float: right;
+    
 }
 
 .header ul {
     list-style-type: none;
-    float: right;
-    margin: 0px 0px 0px 0px;
+    float: right;  
+    padding: 20px 0px;  
 }
 
 .header ul li {
-    display: inline-block;
-    margin: 0px 0px 0px 25px;
+    display: inline;
+    margin-left: 25px;
 
 }
 
