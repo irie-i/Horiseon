@@ -1,13 +1,16 @@
+/*  Formats ALL elements on page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets backgrounf color for body of web page  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header properties - Formating Main header and navigation bar */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -16,7 +19,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*  removed redundant "div" from html  */
 .header {
     padding: 0px 15px 0px 20px;
     float: right;
@@ -27,6 +30,7 @@ body {
     color: #ffffff;
 }
 
+/*  */
 nav {
     display: block;
     overflow: hidden;
@@ -43,16 +47,20 @@ nav {
     display: inline;
     margin-left: 25px;
 }
+/* End Header Properties  */
 
+/* Sets color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font size for all paragraphs  */
 p {
     font-size: 16px;
 }
 
+/* hero section - attention grabber  */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +70,36 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* .main-content/article properties */
 .main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*  Formats all h2 header in the .main-content section for each article */
+.main-content article {  
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*  Formats all images in the .main-content section for each article */
+.main-content article img { 
+    max-height: 200px;
+}
+
+/*  Formats all h2 header in the .main-content section for each article */
+.main-content article h2 {  
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* End Main-content/article properties  */
+
+/* Benefits Section-Aside formatting  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,40 +111,39 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-item {
+/*  Consolidated 3 selectors by renaming class to .benefit-item  */
+.benefit-item { 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
+/*  Consolidated 3 selectors addressing h3 in section by changing selector to Parent and h3  */
+.benefits h3 {  
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-item img {
+/*  Consolidated 3 selectors by renaming class to .benefit-item  */
+.benefit-item img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* End Benefits Section - Aside */
 
-.main-content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Positioning properties  */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.main-content article img {
-    max-height: 200px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
+/* End Positioning properties  */
 
-.main-content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Removed  .footer h2 selector, h2 should not be used at footer due to html semantics*/
 .footer {
     padding: 30px;
     clear: both;
