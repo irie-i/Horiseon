@@ -45,12 +45,12 @@ nav {
     display: inline;
     margin-left: 25px;
 }
-/* End Header */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* End Header */
 
 p {
     font-size: 16px;
@@ -66,7 +66,7 @@ p {
     background-position: center;
 }
 
-/* .main-content/article */
+/* .main-content */
 .main-content {
     width: 75%;
     display: inline-block;
@@ -90,7 +90,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* End .main-content/article  */
+/* End .main-content */
 
 /* .benefits Section-Aside  */
 .benefits {
@@ -113,7 +113,6 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
 
 .benefit-item img { 
     display: block;
